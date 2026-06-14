@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_background">#FFFFFF</color>
+    <color name="widget_background_color">#FFFFFF</color>
+    <color name="widget_stroke_color">#12000000</color>
+    <color name="widget_btn_circle_bg">#1C1C1E</color>
+    <color name="widget_btn_circle_text">#FFFFFF</color>
+    <color name="ic_launcher_background">#0C0C0C</color>
+</resources>

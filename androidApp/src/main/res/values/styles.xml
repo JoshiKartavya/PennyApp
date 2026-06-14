@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen theme using the official Android Splash Screen API -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Background color of the splash screen, dynamically resolved based on theme -->
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        
+        <!-- Animated icon/static logo for the splash screen, dynamically resolved based on theme -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        
+        <!-- Post-splash screen theme to use once the activity finishes launching -->
+        <item name="postSplashScreenTheme">@android:style/Theme.Material.Light.NoActionBar</item>
+    </style>
+</resources>

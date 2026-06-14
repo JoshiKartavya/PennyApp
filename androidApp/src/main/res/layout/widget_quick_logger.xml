@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/widget_background"
+    android:gravity="center"
+    android:padding="8dp">
+
+    <!-- Income Circle Button (+) -->
+    <FrameLayout
+        android:id="@+id/btn_widget_income"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/widget_button_circle"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginEnd="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="+"
+            android:textColor="@color/widget_btn_circle_text"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            android:includeFontPadding="false" />
+    </FrameLayout>
+
+    <!-- Expense Circle Button (-) -->
+    <FrameLayout
+        android:id="@+id/btn_widget_expense"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/widget_button_circle"
+        android:clickable="true"
+        android:focusable="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="-"
+            android:textColor="@color/widget_btn_circle_text"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            android:includeFontPadding="false"
+            android:layout_marginBottom="2dp" />
+    </FrameLayout>
+</LinearLayout>

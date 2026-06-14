@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "420970137197",
+    "project_id": "minimal-expense-tracker-b1d91",
+    "storage_bucket": "minimal-expense-tracker-b1d91.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420970137197:android:61daa5e83db13344f0a164",
+        "android_client_info": {
+          "package_name": "com.kartavya.penny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420970137197-2b436kq0s0j5du54p5aoq73l16i0v8o5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kartavya.penny",
+            "certificate_hash": "25e5fe2644e88ffe56cb2c73855345845cb803f3"
+          }
+        },
+        {
+          "client_id": "420970137197-u5ksqnr0fm674d44mfgmmta0m4goe3qn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kartavya.penny",
+            "certificate_hash": "b6ae9587998d59b353644d4a9eb17b8b2c824aab"
+          }
+        },
+        {
+          "client_id": "420970137197-cccvrkmjo7hednf6eghcuvmoqatpmitb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_7jzuo53hB8D319YnkTBYmh9gve9dzc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420970137197-cccvrkmjo7hednf6eghcuvmoqatpmitb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
